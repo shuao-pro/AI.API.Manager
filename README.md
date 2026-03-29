@@ -16,7 +16,7 @@ AI.API.Manager/
 ## Technology Stack   ##技术栈
 
 - **Framework**: ASP.NET Core 8+- **框架**:ASP。净核心8
-- **Database**: Entity Framework Core + SQL Server- **数据库**:Entity Framework Core SQL Server- **数据库**:Entity Framework Core SQL Server- **数据库**:Entity Framework Core SQL Server
+- **Database**: Entity Framework Core + SQL Server- **数据库**:Entity Framework Core SQL Server- **数据库**:Entity Framework Core SQL Server- **数据库**:Entity Framework Core SQL Server- **数据库**:Entity Framework Core SQL Server—**数据库**:Entity Framework Core SQL Server—**数据库**:Entity Framework Core SQL Server—**数据库**:Entity Framework Core SQL Server
 - **Resilience**: Polly (retry/circuit breaker)- **弹性**:Polly（重试/断路器）
 - **Logging   日志记录**: Serilog
 - **Mapping**: AutoMapper
@@ -56,7 +56,7 @@ AI.API.Manager/
 ### Local Development   ###本地开发
 
 1. **Clone and restore**   1. **克隆和还原**
-   ```bash   ”“bash   “bash”;“bash
+   ```bash   ”“bash   “bash”;“bashBash & quot; Bash & quot; Bash & quot；```bash   ”“bash   “bash”;“bash
    git clone https://github.com/shuao-pro/AI.API.Manager.git
    cd AI.API.Manager
    dotnet restore
@@ -64,13 +64,13 @@ AI.API.Manager/
 
 2. **Update connection string   更新连接字符串** in `AI.API.Manager.API/appsettings.json`2. **在`AI.API.Manager.API/appsettings.json`中更新连接字符串**
    ```json   ' ' ' json```json ```json```json ``json ``json ``json ``' ' ' json ' ' ' json ' json的json ' ' ' ' json的json的json的' json ' '' ' ' json ' ' ' json ' json的json ' ' ' ' json的json的json的json”“json ' json的json的json json的json的json的' ' ' ' ' json ' '
-   "ConnectionStrings": {   "ConnectionStrings": {"ConnectionStrings": {   "ConnectionStrings": {"ConnectionStrings": {   "ConnectionStrings": {"ConnectionStrings": {   "ConnectionStrings": {
+   "ConnectionStrings": {   "ConnectionStrings": {"ConnectionStrings": {   "ConnectionStrings": {"ConnectionStrings": {   "ConnectionStrings": {"ConnectionStrings": {   "ConnectionStrings": {"ConnectionStrings": {   "ConnectionStrings": {"ConnectionStrings": {   "ConnectionStrings": {"ConnectionStrings": {   "ConnectionStrings": {"ConnectionStrings": {   "ConnectionStrings": {
      "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=AIAPIManagerDb;Trusted_Connection=True;MultipleActiveResultSets=true""DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=AIAPIManagerDb;Trusted_Connection=True;MultipleActiveResultSets=true""DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=AIAPIManagerDb;Trusted_Connection=True;MultipleActiveResultSets=true""DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=AIAPIManagerDb;Trusted_Connection=True;MultipleActiveResultSets=true""DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=AIAPIManagerDb;Trusted_Connection=True;MultipleActiveResultSets=true""DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=AIAPIManagerDb;Trusted_Connection=True;MultipleActiveResultSets=true""DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=AIAPIManagerDb;Trusted_Connection=True;MultipleActiveResultSets=true""DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=AIAPIManagerDb;Trusted_Connection=True;MultipleActiveResultSets=true""DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=AIAPIManagerDb;Trusted_Connection=True;MultipleActiveResultSets=true""DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=AIAPIManagerDb;Trusted_Connection=True;MultipleActiveResultSets=true""DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=AIAPIManagerDb;Trusted_Connection=True;MultipleActiveResultSets=true""DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=AIAPIManagerDb;Trusted_Connection=True;MultipleActiveResultSets=true""DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=AIAPIManagerDb;Trusted_Connection=True;MultipleActiveResultSets=true""DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=AIAPIManagerDb;Trusted_Connection=True;MultipleActiveResultSets=true""DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=AIAPIManagerDb;Trusted_Connection=True;MultipleActiveResultSets=true""DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=AIAPIManagerDb;Trusted_Connection=True;MultipleActiveResultSets=true"
    }
    ```
 
 3. **Apply database migrations**3. **应用数据库迁移**
-   ```bash   ”“bash   “bash”;“bash
+   ```bash   ”“bash   “bash”;“bash```bash   ”“bash   “bash”;“bash
    cd AI.API.Manager
    dotnet ef database update --project AI.API.Manager.Infrastructure --startup-project AI.API.Manager.APIdotnet ef数据库更新——项目AI.API.Manager.Infrastructure——启动——项目AI.API.Manager.API
    ```
@@ -88,7 +88,7 @@ AI.API.Manager/
 ### Docker Deployment   ### Docker部署
 
 1. **Build and run with Docker Compose使用Docker Compose构建并运行**1. **使用Docker Compose构建并运行**
-   ```bash   ”“bash   “bash”;“bash
+   ```bash   ”“bash   “bash”;“bash```bash   ”“bash   “bash”;“bash
    docker-compose up --buildDocker-compose up -build
    ```
 
@@ -161,7 +161,7 @@ reportgenerator -reports:"**/coverage.cobertura.xml" -targetdir:"coverage-report
 
 ## License
 
-[Add appropriate license]
+[MIT]
 
 ---
 
