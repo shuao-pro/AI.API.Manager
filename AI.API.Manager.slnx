@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="AI.API.Manager.API/AI.API.Manager.API.csproj" />
+  <Project Path="AI.API.Manager.Application/AI.API.Manager.Application.csproj" />
+  <Project Path="AI.API.Manager.Domain/AI.API.Manager.Domain.csproj" />
+  <Project Path="AI.API.Manager.Infrastructure/AI.API.Manager.Infrastructure.csproj" />
+  <Project Path="AI.API.Manager.Tests/AI.API.Manager.Tests.csproj" />
+</Solution>

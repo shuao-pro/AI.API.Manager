@@ -1,0 +1,15 @@
+C:\Users\18984\Desktop\AI.API.Manager\AI.API.Manager.Application\bin\Debug\net10.0\AI.API.Manager.Application.deps.json
+C:\Users\18984\Desktop\AI.API.Manager\AI.API.Manager.Application\bin\Debug\net10.0\AI.API.Manager.Application.dll
+C:\Users\18984\Desktop\AI.API.Manager\AI.API.Manager.Application\bin\Debug\net10.0\AI.API.Manager.Application.pdb
+C:\Users\18984\Desktop\AI.API.Manager\AI.API.Manager.Application\bin\Debug\net10.0\AI.API.Manager.Domain.dll
+C:\Users\18984\Desktop\AI.API.Manager\AI.API.Manager.Application\bin\Debug\net10.0\AI.API.Manager.Domain.pdb
+C:\Users\18984\Desktop\AI.API.Manager\AI.API.Manager.Application\obj\Debug\net10.0\AI.API.Manager.Application.csproj.AssemblyReference.cache
+C:\Users\18984\Desktop\AI.API.Manager\AI.API.Manager.Application\obj\Debug\net10.0\AI.API.Manager.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\18984\Desktop\AI.API.Manager\AI.API.Manager.Application\obj\Debug\net10.0\AI.API.Manager.Application.AssemblyInfoInputs.cache
+C:\Users\18984\Desktop\AI.API.Manager\AI.API.Manager.Application\obj\Debug\net10.0\AI.API.Manager.Application.AssemblyInfo.cs
+C:\Users\18984\Desktop\AI.API.Manager\AI.API.Manager.Application\obj\Debug\net10.0\AI.API.Manager.Application.csproj.CoreCompileInputs.cache
+C:\Users\18984\Desktop\AI.API.Manager\AI.API.Manager.Application\obj\Debug\net10.0\AI.API.M.CC7207B6.Up2Date
+C:\Users\18984\Desktop\AI.API.Manager\AI.API.Manager.Application\obj\Debug\net10.0\AI.API.Manager.Application.dll
+C:\Users\18984\Desktop\AI.API.Manager\AI.API.Manager.Application\obj\Debug\net10.0\refint\AI.API.Manager.Application.dll
+C:\Users\18984\Desktop\AI.API.Manager\AI.API.Manager.Application\obj\Debug\net10.0\AI.API.Manager.Application.pdb
+C:\Users\18984\Desktop\AI.API.Manager\AI.API.Manager.Application\obj\Debug\net10.0\ref\AI.API.Manager.Application.dll

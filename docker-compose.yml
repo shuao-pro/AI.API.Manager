@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: ai-api-manager-sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=YourStrong!Passw0rd
+      - MSSQL_PID=Express
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver-data:/var/opt/mssql
+    networks:
+      - ai-api-network
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P YourStrong!Passw0rd -Q 'SELECT 1' || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  api:
+    build:
+      context: .
+      dockerfile: AI.API.Manager.API/Dockerfile
+    container_name: ai-api-manager-api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=AIAPIManagerDb;User=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=true
+    ports:
+      - "5000:80"
+      - "5001:443"
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+    networks:
+      - ai-api-network
+    volumes:
+      - ./AI.API.Manager.API/appsettings.Development.json:/app/appsettings.Development.json:ro
+    command: >
+      sh -c "
+      echo 'Waiting for SQL Server to be ready...' &&
+      sleep 30 &&
+      dotnet ef database update --project AI.API.Manager.Infrastructure --startup-project AI.API.Manager.API &&
+      dotnet AI.API.Manager.API.dll"
+
+volumes:
+  sqlserver-data:
+
+networks:
+  ai-api-network:
+    driver: bridge

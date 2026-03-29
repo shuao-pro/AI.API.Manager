@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "a/r1zVrbYKc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\18984\\Desktop\\AI.API.Manager\\AI.API.Manager.Domain\\AI.API.Manager.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\18984\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.3\\microsoft.extensions.dependencyinjection.abstractions.9.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
